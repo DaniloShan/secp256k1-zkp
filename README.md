@@ -9,13 +9,13 @@ This library is under development, and, like the secp256k1-zkp C library it depe
 ### npm
 
 ``` bash
-npm install tiny-secp256k1
+npm install secp256k1-zkp
 ```
 
 ### yarn
 
 ```bash
-yarn add tiny-secp256k1
+yarn add secp256k1-zkp
 ```
 
 ## Classes

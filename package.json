@@ -20,6 +20,7 @@
   "scripts": {
     "install": "npm run rebuild",
     "rebuild": "node-gyp rebuild",
+    "unit": "echo \"Error: no test specified\" && exit 1",
     "repl": "node -e 'const Secp = require(\"./lib\"); const secp = Secp.secp' -i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
