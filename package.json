@@ -23,7 +23,7 @@
     "repl": "node -e 'const Secp = require(\"./lib\"); const secp = Secp.secp' -i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "secp256k1-zkp node package for MW.",
   "keywords": [
     "grin",
