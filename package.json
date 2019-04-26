@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "bindings": "^1.3.1",
+    "bn.js": "^4.11.8",
+    "nan": "2.12.1"
+  },
+  "deprecated": false,
+  "gypfile": true,
+  "license": "MIT",
+  "main": "index.js",
+  "name": "secp256k1-zkp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniloShan/secp256k1-zkp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaniloShan/secp256k1-zkp/issues"
+  },
+  "homepage": "https://github.com/DaniloShan/secp256k1-zkp#readme",
+  "scripts": {
+    "install": "npm run rebuild",
+    "rebuild": "node-gyp rebuild",
+    "repl": "node -e 'const Secp = require(\"./lib\"); const secp = Secp.secp' -i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "description": "secp256k1-zkp node package for MW.",
+  "keywords": [
+    "grin",
+    "mimblewimble",
+    "secp256k1",
+    "secp256k1-zkp"
+  ]
+}
