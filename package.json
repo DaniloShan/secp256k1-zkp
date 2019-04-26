@@ -27,7 +27,7 @@
   "engines": {
     "node": ">=9.11.2"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "secp256k1-zkp node package for MW.",
   "keywords": [
     "grin",
