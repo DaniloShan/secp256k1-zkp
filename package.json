@@ -24,11 +24,12 @@
     "repl": "node -e 'const Secp = require(\"./lib\"); const secp = Secp.secp' -i",
     "test": "node tests/index.js"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "secp256k1-zkp node package for MW.",
   "keywords": [
     "grin",
     "mimblewimble",
+    "schnorr",
     "secp256k1",
     "secp256k1-zkp"
   ]
